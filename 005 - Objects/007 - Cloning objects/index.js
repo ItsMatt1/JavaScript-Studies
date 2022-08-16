@@ -14,3 +14,5 @@ let mesclar1 = Object.assign(Tenis, link)
 
 let mesclar2 = { ...Tenis, ...link }
 console.log(mesclar2)
+
+//OBS: WATCHOUT WHEN CLONING OBJECT, IF YOU CHANGE A VALUE OF THE CLONE, PROPRABLY IT WILL CHANGE THE ORIGINAL TOO
